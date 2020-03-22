@@ -4,7 +4,7 @@ const app=express();
 
 const port=7000;
 
-app.use('/',require('./routes'))
+app.use('/',require('./routes/index'));
 
 
 // app.get('/',(req,res)=>{

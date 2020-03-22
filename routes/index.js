@@ -1,3 +1,10 @@
 const express= require('express');
 
-cont router = express
+const router = express.Router();
+
+const indexController=require('../controllers/indexController');
+
+
+router.get('/',indexController.account);
+
+module.exports=router;
