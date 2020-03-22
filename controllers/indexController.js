@@ -1,3 +1,8 @@
 module.exports.account=function(req,res){
-    res.send('my site is working fine')
+    res.render('index');
+}
+
+
+module.exports.signin=function(req,res){
+    res.render('home');
 }

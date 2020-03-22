@@ -4,7 +4,12 @@ const app=express();
 
 const port=7000;
 
+
+app.use(express.urlencoded());
+
 app.use('/',require('./routes/index'));
+
+app.set('view engine','ejs');
 
 
 // app.get('/',(req,res)=>{
@@ -12,6 +17,10 @@ app.use('/',require('./routes/index'));
 
 
 // })
+
+app.set('views','./views');
+
+app.use(express.static('assets'));
 
 app.listen(port,function(err){
     if(err){

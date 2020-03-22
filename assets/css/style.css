@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+    padding: 0;
+    
+
+}
+#main-container{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 150px;
+    color: white;
+    background-color:#71A69C;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #71A69C;
+    
+}
+
+#container{
+   
+    height: 100vh;
+    width: 100vw;
+    background-color:#71A69C;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+
+.signin-container{
+    
+    height: 90%;
+    width: 40%;
+    background-color: #018784;
+    box-shadow: 2px 2px 2px rgba(0,0,0, 5.9);
+    display: flex;
+    flex-direction: column;
+}
+.signin-container:hover{
+    transform: scale(1.1);
+	transition: 1s ease-in-out;
+}
+
+#signin{
+    color:white;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    font-size: 100px;
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 70%;
+    
+    margin-left: 80px;
+    font-size: 30px;
+    color: white;
+
+}
+
+input{
+    width: 100%;
+    height: 30px;
+
+}
+small{
+    font-size: 15px;
+    visibility: hidden;
+}
+
+button{
+    margin-top: 20px;
+    cursor: pointer;
+    width: 60px;
+    height: 30px;
+    background-color: dodgerblue;
+}
+
+
+.create-container{
+    height: 90%;
+    width: 40%;
+    background-color: #018784;
+    box-shadow: 2px 2px 2px rgba(0,0,0, 5.9);
+}
+
+.create-container:hover{
+    transform: scale(1.1);
+	transition: 1s ease-in-out;
+}
+
+.create{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 60px;
+    padding-top: 20px;
+}
+
+#form-create{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 70%;
+    
+    margin-left: 80px;
+    font-size: 30px;
+    color: white;
+}
+
